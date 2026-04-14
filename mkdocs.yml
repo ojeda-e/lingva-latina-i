@@ -1,0 +1,48 @@
+site_name: Lingua Latina — Pars I
+site_description: Personal study notes for Familia Romana
+#site_url: https://ojeda-e.github.io/lingua-latina-i/
+
+theme:
+  name: material
+  logo: img/logo.png
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep-orange
+      accent: deep-orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep-orange
+      accent: deep-orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css

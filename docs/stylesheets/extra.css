@@ -1,0 +1,39 @@
+:root {
+  --md-text-font: Arial, Helvetica, sans-serif;
+}
+
+.md-header__button.md-logo img {
+  height: 2rem;
+}
+
+/* Navigation: top tabs and primary sidebar */
+.md-tabs__link .md-ellipsis,
+.md-nav--primary .md-nav__link .md-ellipsis,
+.md-nav--primary .md-nav[data-md-level] > .md-nav__title {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.04em;
+}
+
+.capitulum {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.04em;
+}
+
+body.capitulum-page .md-content .md-typeset {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.04em;
+}
+
+body.capitulum-page .md-content .md-typeset pre,
+body.capitulum-page .md-content .md-typeset code {
+  font-variant-caps: normal;
+  letter-spacing: normal;
+}
+
+.md-typeset h1 {
+  font-weight: 600;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-default-fg-color--lightest);
+}

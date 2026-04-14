@@ -1,0 +1,15 @@
+[project]
+name = "lingva-latina-i"
+version = "0.1.0"
+description = "Personal study notes for Lingua Latina per se Illustrata — Familia Romana"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocs-awesome-pages-plugin",
+    "ruff",
+]
+
+[tool.uv]
+package = false
