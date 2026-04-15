@@ -41,7 +41,8 @@ Chapter folders are located under `docs/capitula/CAP_01/` … `docs/capitula/CAP
 │   │       └── exercitia/
 │   │           └── pensvm_1.md
 │   └── stylesheets/
-├── mkdocs.yml
+├── hooks/progress.py            # progress tracking
+├── progress/progress.json
 ├── pyproject.toml
 └── uv.lock
 ```
@@ -67,6 +68,29 @@ make sync serve
 
 `mkdocs build` and `mkdocs serve` automatically regenerate `docs/progress.md` and chapter navigation via the pre-build hook — no separate step needed.
 
+### Progress tracking
+
+This project includes a pre-build hook to update the progress tracking without a full build:
+
+```bash
+make progress
+```
+
+Edit `progress/progress.json` to override status or set exercitia totals:
+
+```json
+{
+  "chapters": {
+    "1": {
+      "grammatica": "done",
+      "vocabulum": "in_progress",
+      "exercitia_total": 3
+    }
+  }
+}
+```
+
+Status values: `not_started`, `in_progress`, `done`.
 
 ### GitHub Pages
 

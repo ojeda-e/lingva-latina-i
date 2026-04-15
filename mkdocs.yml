@@ -37,6 +37,9 @@ plugins:
   - search
   - awesome-pages
 
+hooks:
+  - hooks/progress.py
+
 markdown_extensions:
   - admonition
   - pymdownx.details
