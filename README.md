@@ -33,6 +33,7 @@ Chapter folders are located under `docs/capitula/CAP_01/` … `docs/capitula/CAP
 ```bash
 ├── docs/
 │   ├── index.md
+│   ├── progress.md             # generated on build
 │   ├── capitula/
 │   │   └── CAP_01/             # study notes - Cap I
 │   │       ├── grammatica.md
@@ -41,7 +42,7 @@ Chapter folders are located under `docs/capitula/CAP_01/` … `docs/capitula/CAP
 │   │       └── exercitia/
 │   │           └── pensvm_1.md
 │   └── stylesheets/
-├── hooks/progress.py            # progress tracking
+├── hooks/progress.py           # progress tracking
 ├── progress/progress.json
 ├── pyproject.toml
 └── uv.lock
@@ -90,7 +91,7 @@ Edit `progress/progress.json` to override status or set exercitia totals:
 }
 ```
 
-Status values: `not_started`, `in_progress`, `done`.
+The possible status values are: `not_started`, `in_progress`, `done`.
 
 ### GitHub Pages
 
