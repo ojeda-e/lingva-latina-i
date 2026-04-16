@@ -6,4 +6,4 @@
 
 > Creta īnsula Graeca est. Lesbos et Chios et Naxus sunt īnsulae Graecae. In Graeciā multae īnsula sunt. In Galliā sunt multi fluviī. In Italiā multa oppida sunt. In Arabiā sunt pauci fluviī et pauca oppida.
 
-> A et B litterae Latinae sunt. C quoque littera Latīna est. Multa et pauca vocābula Latīna sunt. Ubi quoque vocābula Latīna est. I et II numeri romani sunt. III quoque numerus romanus est.
+> A et B litterae Latīnae sunt. C quoque littera Latīna est. Multa et pauca vocābula Latīna sunt. Ubi quoque vocābula Latīna est. I et II numeri romani sunt. III quoque numerus romanus est.
