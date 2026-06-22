@@ -1,6 +1,6 @@
 site_name: Lingua Latina — Pars I
 site_description: Personal study notes for Familia Romana
-#site_url: https://ojeda-e.github.io/lingua-latina-i/
+site_url: https://ojeda-e.github.io/lingua-latina-i/
 
 theme:
   name: material
